@@ -1,0 +1,18 @@
+# Віртуальне оточення
+.venv/
+venv/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Чернетки та готові збірки PyInstaller
+build/
+dist/
+*.spec
+
+# Налаштування PyCharm (опціонально, але краще приховати)
+.idea/
