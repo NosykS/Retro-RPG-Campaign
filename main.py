@@ -1,3 +1,4 @@
+#TestRPGdeb/main.py
 import sys
 import pygame
 from core.config import SCREEN_WIDTH, SCREEN_HEIGHT, init_fonts
@@ -6,7 +7,7 @@ from core.game_manager import GameManager
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SCALED)
     pygame.display.set_caption("RPG Campaign: Професійна Архітектура")
 
     # Ініціалізація шрифтів після запуску pygame

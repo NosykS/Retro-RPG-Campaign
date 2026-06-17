@@ -3,16 +3,16 @@
 venv/
 ENV/
 
+# Тимчасові папки Nuitka
+*.build/
+*.onefile-build/
+*.dist/
+
 # Кеш Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Чернетки та готові збірки PyInstaller
-build/
-dist/
-*.spec
-
-# Налаштування PyCharm (опціонально, але краще приховати)
+# Логи та системні файли
+*.log
 .idea/
+.vscode/
